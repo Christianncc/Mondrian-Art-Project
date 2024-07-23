@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+.containermain {
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  gap: 9px;
+  height: 737px;
+  width: 757px;
+  background-color: black;
+ 
+
+}
+
+.items1 {background-color: #E72F24;
+height: 414px;
+width: 320px;}
+
+.items2 {background-color: #F0F1EC;
+height: 414px;
+width: 428px;
+grid-column: span 2;
+
+}
+
+.container4 {
+display: grid;
+grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+gap: 9px;
+
+width: 369px;
+
+
+}
+
+
+.items4 {background-color: #F0F1EC;
+height: 285px;
+  width: 369px;
+ grid-column: span 3;
+  
+}
+
+.items7 {background-color: #F9D01E;
+height: 20px;
+width: 198px;
+}
+
+.items8 {background-color: rgb(114, 108, 108);
+height: 20px;
+width: 162.5px;
+
+
+}
+
+.container3 {
+display: grid;
+grid-template-columns: 1fr  ;
+  grid-template-rows: 1fr 1fr ;
+  gap: 9px;
+ 
+}
+
+.items3 {background-color: #F0F1EC;
+  height: 285px;
+  width: 320px;
+  
+}
+
+.items6 {background-color: #F0F1EC;
+height: 20px;
+width: 320px;
+
+
+}
+
+.container5 {
+display: grid;
+grid-template-columns: 1fr  ;
+  grid-template-rows: 1fr 1fr ;
+  gap: 9px;
+ height: 0px;
+ /*
+ margin-left: 159px;
+ */
+ background-color: #E72F24;
+}
+
+
+.items5 {background-color: #004592;
+height: 130px;
+  width: 50px;
+ 
+  }
+
+  .items9 {background-color: #F0F1EC;
+  height: 175px;
+width: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="containermain">
+  <div class="container">
+    <div class="items1">1</div>
+    <div class="items2">2</div>
+    <div class="container3">
+    <div class="items3">3</div>
+    <div class="items6">6</div>
+    </div>
+    <div class="container4">
+    <div class="items4">4</div>
+    <div class="items7">7</div>
+    <div class="items8">8</div>
+    </div>
+<div class="container5">
+    <div class="items5">5</div>
+    <div class="items9">9</div>
+    </div>
+    
+    </div>
+  </div>
+</body>
+
+</html>
